@@ -1,0 +1,37 @@
+body { 
+    background: url(../images/trainStation.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.jumbotron {
+    background-color: #5D6D7E;
+    color: lightgray;
+    opacity: 0.925;
+    margin-top: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.jumbotron H1 {
+    font-family: 'Teleindicadores1Regular'; 
+    font-size: 6em;
+    font-weight: 600;
+}
+
+.jumbotron H3 {
+    font-family: 'Teleindicadores1Regular';
+    font-weight: 500;
+    color: white;
+}
+
+.card {
+    opacity: 0.9;
+}
+
+.btn {
+    background-color: lightslategray;
+    border-color: lightslategray;
+}
