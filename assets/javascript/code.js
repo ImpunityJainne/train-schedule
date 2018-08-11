@@ -89,11 +89,12 @@ $("#add-train-btn").on("click", function(event) {
     var newRow = $("<tr>").append(
       $("<td>").text(trainName),
       $("<td>").text(destName),
-      $("<td class='text-center'>").text(moment(startTimeConverted).format("hh:mm")),
-      $("<td class='text-center'>").text(moment(nextArrival).format("hh:mm")),
-      $("<td class='text-center'>").text(tMinutesTillTrain),
+      $("<td class='text-center'>").text(minsBetween + " minutes"),
+      $("<td class='text-center'>").text(moment(nextArrival).format("hh:mm A")),
+      $("<td class='text-center'>").text(tMinutesTillTrain + " minutes"),
     );
 
     // Append the new row to the table
     $("#trains-table > tbody").append(newRow);
   });
+
